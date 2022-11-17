@@ -12,8 +12,8 @@ body {
    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
    color: #fff;
    font-size: 20px;
-   font-family: "Lexend", sans-serif;
-   font-weight: 300;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
 }
 #container {
    padding: 90px 80px;
@@ -35,7 +35,7 @@ body {
    padding: 15px 20px;
    width: 260px;
    font-family: "Lexend", sans-serif;
-   font-weight: 300;
+   font-weight: 400;
    font-size: 17px;
    transition: all 0.3s ease;
    opacity: 0.7;
@@ -80,4 +80,14 @@ body {
    font-size: 18px;
    opacity: 0.8;
    margin-top: 20px;
+}
+footer {
+   color: #3c047d;
+   font-size: 14px;
+}
+.webLink {
+   text-underline-offset: 3px;
+}
+.webLink:hover {
+   color: #9907fa;
 }
